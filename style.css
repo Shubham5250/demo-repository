@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    max-height: 100vh;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(37, 150, 74);
+}
+::-webkit-scrollbar-track{
+    background: #606272;
+}
+
+/*----Navbar styling begins here----*/
+
+.navbar{
+    display: flex;
+    height: 3.5rem;
+    padding: 0.9rem 1rem 0rem 1.2rem;
+    justify-content: space-between;
+    border-bottom: 0.5px solid rgb(169, 168, 168);
+    font-size: 1.2rem;
+}
+
+.nav-list{
+    display: flex;
+    gap: 3rem;
+}
+.nav-list:hover{
+    cursor: pointer;
+}
+.nav-list span:hover{
+    border-bottom: 0.2rem solid rgb(50, 147, 50);
+    border-radius: 7px;
+    transition: 300ms ease-in-out;
+}
+
+.fav-icon-content{
+    display: flex;
+}
+.fav-icon-content{
+    cursor: pointer;
+}
+
+.fav-icon{
+    height: 2rem;
+    width: 2rem;
+}
